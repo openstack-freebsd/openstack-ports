@@ -1,0 +1,8 @@
+Eventlet is a networking library written in Python. It achieves high scalability
+by using non-blocking IO while at the same time retaining high programmer
+usability by using coroutines to make the non-blocking IO operations appear
+blocking at the source code level.
+
+notice: py-eventlet 0.21 does not work py-monotonic.
+
+WWW: http://eventlet.net/
