@@ -13,8 +13,7 @@ COMMENT=	Oslo Context library
 LICENSE=	APACHE20
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pbr>=2.0.0:devel/py-pbr
-RUN_DEPENDS:=	${BUILD_DEPENDS}
-RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}debtcollector>=1.2.0:devel/py-debtcollector \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}debtcollector>=1.2.0:devel/py-debtcollector \
 		${PYTHON_PKGNAMEPREFIX}positional>=1.1.1:devel/py-positional \
 
 NO_ARCH=	yes

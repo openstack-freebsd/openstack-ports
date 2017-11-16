@@ -12,8 +12,7 @@ COMMENT=	Oslo i18n library
 LICENSE=	APACHE20
 
 BUILD_DEPENDS=	${PKGNAMEPREFIX}pbr>=2.0.0:devel/py-pbr
-RUN_DEPENDS:=	${BUILD_DEPENDS}
-RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}Babel>=2.3.4:devel/py-babel \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Babel>=2.3.4:devel/py-babel \
 		${PYTHON_PKGNAMEPREFIX}six>=1.9.0:devel/py-six
 
 NO_ARCH=	yes

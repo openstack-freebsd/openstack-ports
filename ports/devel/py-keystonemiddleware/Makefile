@@ -11,8 +11,7 @@ MAINTAINER=	alexander.nusov@nfvexpress.com
 COMMENT=	Middleware for OpenStack Identity
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pbr>=2.0.0:devel/py-pbr
-RUN_DEPENDS:=   ${BUILD_DEPENDS}
-RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}keystoneauth1>=2.21.0:devel/py-keystoneauth1 \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}keystoneauth1>=2.21.0:devel/py-keystoneauth1 \
 		${PYTHON_PKGNAMEPREFIX}oslo.config>=4.0.0:devel/py-oslo.config \
 		${PYTHON_PKGNAMEPREFIX}oslo.context>=2.14.0:devel/py-oslo.context \
 		${PYTHON_PKGNAMEPREFIX}oslo.i18n>=2.1.0:devel/py-oslo.i18n \

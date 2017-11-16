@@ -13,8 +13,7 @@ COMMENT=	Manage dynamic plugins for Python applications
 LICENSE=	APACHE20
 
 BUILD_DEPENDS=	${PKGNAMEPREFIX}pbr>=2.0.0:devel/py-pbr
-RUN_DEPENDS:=	${BUILD_DEPENDS}
-RUN_DEPENDS+=	${PKGNAMEPREFIX}six>=1.9.0:devel/py-six
+RUN_DEPENDS=	${PKGNAMEPREFIX}six>=1.9.0:devel/py-six
 
 USES=		python
 USE_PYTHON=	autoplist distutils

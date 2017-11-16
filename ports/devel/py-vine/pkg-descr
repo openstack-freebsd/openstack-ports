@@ -1,0 +1,9 @@
+Python Promises.
+If you run a server that serves multiple clients, or do heavy scientific 
+calculations, there is no escaping them Currently there are two ways to go 
+about it : Synchronous and Asynchronous programming.
+The Promise is a design pattern that allow you to write asynchronous code in 
+a "synchronous" manner. instead passing callbacks around you can simply chain 
+the calls thus greatly simplyfying the logic flow of the code.
+
+WWW: http://https://vine.readthedocs.io/
