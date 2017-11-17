@@ -19,6 +19,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=1.9.0:devel/py-six \
 		${PYTHON_PKGNAMEPREFIX}monotonic>=0.6:devel/py-monotonic \
 		${PYTHON_PKGNAMEPREFIX}pytz>=2013.6:devel/py-pytz \
 		${PYTHON_PKGNAMEPREFIX}netaddr>=0.7.13:net/py-netaddr \
+		${PYTHON_PKGNAMEPREFIX}netifaces>=0.10.4:net/py-netifaces \
 		${PYTHON_PKGNAMEPREFIX}debtcollector>=1.2.0:devel/py-debtcollector \
 		${PYTHON_PKGNAMEPREFIX}pyparsing>=2.1.0:devel/py-pyparsing
 

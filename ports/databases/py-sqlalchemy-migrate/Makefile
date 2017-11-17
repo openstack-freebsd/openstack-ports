@@ -23,7 +23,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Tempita>=0.4:textproc/py-Tempita \
 # Options for SQLAlchemy 0.11
 OPTIONS_DEFINE=		SQLALCHEMY11
 OPTIONS_DEFAULT=	SQLALCHEMY11
-SQLALCHEMY11_DESC=	Use sqlalchemy 0.11.x instead of sqlalchemy 0.10.x
+SQLALCHEMY11_DESC=	Use sqlalchemy 1.1.x instead of sqlalchemy 1.0.x
 SQLALCHEMY11_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlalchemy11>=0.7.8:databases/py-sqlalchemy11
 SQLALCHEMY11_RUN_DEPENDS_OFF=	${PYTHON_PKGNAMEPREFIX}sqlalchemy10>=0.7.8:databases/py-sqlalchemy10
 
