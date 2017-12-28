@@ -1,0 +1,11 @@
+liberasurecode is an Erasure Code API library written in C with pluggable 
+Erasure Code backends.
+* Unified Erasure Coding interface for common storage workloads.
+* Pluggable Erasure Code backends
+* Cross-platform - liberasurecode is known to work on Linux (Fedora/Debian 
+  flavors), Solaris, BSD and Darwin/Mac OS X.
+* Community support - Developed alongside Erasure Code authority Kevin Greenan,
+  liberasurecode is an actively maintained open-source project with growing 
+  community involvement (Openstack Swift, Ceph, PyECLib, NTT Labs).
+
+WWW: https://github.com/openstack/liberasurecode
