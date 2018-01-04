@@ -12,11 +12,12 @@
 # 			Default is "NO".
 # swift_servers (list):	Specify servers to run as a space separated
 # 			list of possible values:
-# 			account, account-reaper, account-replicator,
+# 			account, account-auditor, account-reaper, 
+#			account-replicator,
 # 			container, container-auditor, container-replicator,
 # 			container-sync, container-updater,
-# 			object, object-auditor, object-expirer,
-# 			object-replicator, object-updater,
+# 			object, object-auditor, object-expirer, 
+#			object-replicator, object-updater,
 # 			proxy.
 # 			The following aliases may be used:
 # 			"ACCOUNT" -- all account servers;
@@ -68,6 +69,7 @@ swift_expand_servers()
 			;;
 		ACCOUNT)
 			echo account
+			echo account-auditor
 			echo account-reaper
 			echo account-replicator
 			;;
@@ -78,7 +80,7 @@ swift_expand_servers()
 			echo container
 			echo container-auditor
  			echo container-replicator
-			echo container-sync
+ 			echo container-sync
  			echo container-updater
 			;;
 		OBJECT)
@@ -90,11 +92,9 @@ swift_expand_servers()
 		PROXY)
 			echo proxy
 			;;
-		account|account-reaper|account-replicator|\
-		container|container-auditor|container-replicator|\
-		container-sync|container-updater|\
-		object|object-auditor|object-expirer|object-replicator|\
-		object-updater|\
+		account|account-auditor|account-reaper|account-replicator|\
+		container|container-auditor|container-replicator|container-sync|container-updater|\
+		object|object-auditor|object-expirer|object-replicator|object-updater|\
 		proxy)
 			echo "${x}"
 			;;
