@@ -25,7 +25,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=1.9.0:devel/py-six \
 		${PYTHON_PKGNAMEPREFIX}python-keystoneclient>=3.8.0:net/py-python-keystoneclient \
 		${PYTHON_PKGNAMEPREFIX}python-novaclient>=9.0.0:net/py-python-novaclient \
 		${PYTHON_PKGNAMEPREFIX}python-cinderclient>=3.0.0:net/py-python-cinderclient \
-		${PYTHON_PKGNAMEPREFIX}python-neutronclient>0:net/py-python-neutronclient
+		${PYTHON_PKGNAMEPREFIX}python-neutronclient>0:net/py-python-neutronclient \
+		${PYTHON_PKGNAMEPREFIX}python-swiftclient>0:databases/py-python-swiftclient
 
 USES=		python shebangfix
 USE_PYTHON=	distutils autoplist noegginfo
