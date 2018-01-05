@@ -21,7 +21,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dnspython>=1.14.0:dns/py-dnspython \
 		${PYTHON_PKGNAMEPREFIX}six>=1.9.0:devel/py-six \
 		${PYTHON_PKGNAMEPREFIX}xattr>=0.4:devel/py-xattr \
 		${PYTHON_PKGNAMEPREFIX}PyECLib>=1.3.1:devel/py-pyeclib \
-		${PYTHON_PKGNAMEPREFIX}cryptography>=1.6:security/py-cryptography
+		${PYTHON_PKGNAMEPREFIX}cryptography>=1.6:security/py-cryptography \
+		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3
 
 USES=		python:2.7
 USE_PYTHON=	distutils autoplist
